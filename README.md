@@ -14,3 +14,7 @@ div {
   color: hsluv(120, 50, 85);
 }
 ```
+
+## Acknowledgements
+
+Full credit for HSLuv color model and its design goes to [hsluv/shluv](https://github.com/hsluv/hsluv/) and its maintainers. This postcss plugin merely uses the javascript implementation from the repository.
