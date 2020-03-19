@@ -1,0 +1,25 @@
+{
+  "name": "postcss-plugin-hsluv",
+  "version": "0.0.1",
+  "description": "PostCSS plugin for HSLuv color model functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "color",
+    "hsl",
+    "hsluv",
+    "postcss",
+    "postcss-plugin",
+    "css"
+  ],
+  "author": "yliaho",
+  "license": "MIT",
+  "dependencies": {
+    "css-color-converter": "^1.1.0",
+    "hsluv": "^0.1.0",
+    "postcss": "^7.0.27",
+    "postcss-functions": "^3.0.0"
+  }
+}
