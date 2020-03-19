@@ -1,5 +1,5 @@
 {
-  "name": "yliaho/postcss-plugin-hsluv",
+  "name": "@yliaho/postcss-plugin-hsluv",
   "version": "0.0.1",
   "description": "PostCSS plugin for HSLuv color model functions",
   "main": "index.js",
