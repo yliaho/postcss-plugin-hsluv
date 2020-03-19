@@ -1,18 +1,11 @@
 const postcss = require('postcss')
 const postcssFunctions = require('postcss-functions')
-const hsluv = require('hsluv')
+const hsluvFunction = require('./hsluv-function')
 
 const options = {
   functions: {
     hsluv(...fractions) {
-      // Map string parameters to number
-      const hsluvColorTuple = fractions.slice(0, 3).map(f => parseInt(f))
-
-      // Generate css hex from hsluv value
-      const colorHex = hsluv.hsluvToHex(hsluvColorTuple)
-
-      // Return css hex back to processor
-      return colorHex
+      return hsluvFunction(...fractions)
     }
   }
 }
