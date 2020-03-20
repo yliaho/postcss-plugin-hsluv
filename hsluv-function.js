@@ -2,6 +2,7 @@ const hsluv = require('hsluv')
 
 /**
  * @param  { string[] } fractions
+ * @returns { string }
  */
 function hsluvFunction(...fractions) {
   // Map string parameters to number
